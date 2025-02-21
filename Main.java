@@ -18,6 +18,7 @@ public class Main {
             System.out.println("player "+ player +" enter:");
             int row = scanner.nextInt();
             int col = scanner.nextInt();
+            System.out.println();
 
             if(board[row][col]==' '){
                 //place the element
